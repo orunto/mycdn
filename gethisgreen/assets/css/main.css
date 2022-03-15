@@ -961,6 +961,20 @@ a {
     left: calc(50vw - 402px);
 }
 
+#customizeblack {
+    left: -270px;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
+    background-size: 100%;
+}
+
+#customizesilver {
+    left: -270px;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
+    background-size: 100%;
+}
+
 .customize div{
     width: 246px;
     height: 436px;
@@ -968,6 +982,7 @@ a {
 }
 
 #blackhead {
+    display: block;
     position: absolute;
     top: -28px;
     font-weight: normal;
@@ -976,6 +991,7 @@ a {
 }
 
 #silverhead {
+    display: block;
     position: absolute;
     top: -28px;
     font-weight: normal;
@@ -984,6 +1000,7 @@ a {
 }
 
 .customize hr {
+    display: block;
     position: absolute;
     top: 0;
     left: calc(50% - 59.5px);
@@ -993,6 +1010,7 @@ a {
 }
 
 #onebox {
+    display: block;
     position: absolute;
     top: 93px;
     left: calc(50% - 129px);
@@ -1021,6 +1039,7 @@ a {
     left: calc(50% - 7px);
 }
 #counter {
+    display: block;
     position: absolute;
     top: 65px;
     right: 0;
@@ -1042,6 +1061,7 @@ a {
     right: 5px;
 }
 #threebox {
+    display: block;
     position: absolute;
     top: 211px;
     left: calc(50% - 129px);
@@ -1053,6 +1073,7 @@ a {
     color: black;
 }
 #counter2 {
+    display: block;
     position: absolute;
     top: 65px;
     right: 0;
@@ -1075,6 +1096,7 @@ a {
 }
 
 .title {
+    display: block;
     position: absolute;
     top: 14px;
     left: 17px;
@@ -1083,6 +1105,7 @@ a {
 
 
 #oneprice {
+
     position: absolute;
     top: 14px;
     right: 17px;
@@ -1112,6 +1135,7 @@ a {
 }
 
 #order {
+    display: block;
     font-size: 16px;
     position: absolute;
     top: 0;
@@ -1426,7 +1450,7 @@ a {
     
     nav a {
         text-decoration: none;
-        color: inherit;
+        color: inheri;
         margin-right: 25px;
         margin-top: 10px;
         font-weight: bold;
