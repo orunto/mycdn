@@ -998,7 +998,6 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    display: none;
     border: 1px solid black;
     margin: 0;
     padding: 0;
@@ -1048,7 +1047,6 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    display: none;
     border: 1px solid black;
     margin: 0;
     padding: 0;
@@ -1114,7 +1112,6 @@ a {
 }
 
 #order {
-    display: none;
     font-size: 16px;
     position: absolute;
     top: 0;
