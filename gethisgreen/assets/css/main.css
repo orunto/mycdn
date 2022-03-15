@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/assets/Bigilla.otf');
+    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/assets/Bigilla.otf');
 }
 
 h4 {
@@ -154,7 +154,7 @@ nav hr {
     top: 154px;
     width: 100vw;
     height: calc(100vw / 2.32);
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/unsplash_dmkmrNptMpw.png');
     background-size: 100%;
     margin: 0;
     padding: 0;
@@ -373,7 +373,7 @@ footer form button {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/newsletter.svg');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/newsletter.svg');
     border: none;
 }
 .list {
@@ -474,13 +474,13 @@ a {
     top: 154px;
     width: 100vw;
     height: 735px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/about.gif');
     background-size: 100%;
     color: white;
 }
 
 #story {
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/story.gif');
     background-size: 100%;
 }
 
@@ -770,7 +770,7 @@ a {
     left: calc(50vw - 506.5px);
     width: 1013px;
     height: 614px;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/phone.png');
 }
 
 .contact form {
@@ -924,13 +924,55 @@ a {
     color: white;
 }
 
+
+#black {
+    left: 0;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
+    background-size: 100%;
+}
+
+#silver {
+    right: 0;
+    position: absolute;
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
+    background-size: 100%;
+}
+
+.product h5 {
+    position: absolute;
+    bottom: 30px;
+    z-index: 4;
+    text-align: center;
+    font-weight: normal;
+}
+
+#productfooter{
+    top: 889px;
+}
+
+
+/* PRODUCT CUSTOMIZATION PAGE */
+.customize {
+    position: absolute;
+    top: 229px;
+    width: 804px;
+    height: 436px;
+    left: calc(50vw - 402px);
+}
+
+.customize div{
+    width: 246px;
+    height: 436px;
+    transition: 0.5s;
+}
+
 #blackhead {
     position: absolute;
     top: -28px;
     font-weight: normal;
     width: 100%;
     text-align: center;
-    display: none;
 }
 
 #silverhead {
@@ -939,17 +981,15 @@ a {
     font-weight: normal;
     width: 100%;
     text-align: center;
-    display: none;
 }
 
-.product hr {
+.customize hr {
     position: absolute;
     top: 0;
     left: calc(50% - 59.5px);
     margin: 0;
     width: 119px;
     border: 1px solid black;
-    display: none;
 }
 
 #onebox {
@@ -1051,14 +1091,14 @@ a {
     font-size: 17px;
 }
 
-.product form {
+.customize form {
     position: absolute;
     top: 328px;
     left: calc(50% - 213px);
     width: 426px;
 }
 
-.product form input {
+.customize form input {
     width: 100%;
     font-size: 18px;
 }
@@ -1096,31 +1136,6 @@ a {
     border: #2C2C2C;
     font-size: 18px;
     color: white;
-}
-#black {
-    left: 0;
-    position: absolute;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
-    background-size: 100%;
-}
-
-#silver {
-    right: 0;
-    position: absolute;
-    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
-    background-size: 100%;
-}
-
-.product h5 {
-    position: absolute;
-    bottom: 30px;
-    z-index: 4;
-    text-align: center;
-    font-weight: normal;
-}
-
-#productfooter{
-    top: 889px;
 }
 
 #description {
@@ -1435,7 +1450,7 @@ a {
         left: calc(50vw - 578.5px);
         width: 1157.56px;
         height: 500px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/unsplash_dmkmrNptMpw.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/unsplash_dmkmrNptMpw.png');
         background-size: 100%;
         margin: 0;
         padding: 0;
@@ -1752,13 +1767,13 @@ a {
         top: 154px;
         width: 100vw;
         height: 735px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/about.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/about.gif');
         background-size: 100%;
         color: white;
     }
 
     #story {
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/story.gif');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/story.gif');
         background-size: 100%;
     }
 
@@ -1989,7 +2004,7 @@ a {
         left: 0;
         width: 100vw;
         height: 614px;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/phone.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/phone.png');
     }
 
     .contact form {
@@ -2148,7 +2163,7 @@ a {
     #black {
         position: absolute;
         left: calc(50% - 148px);
-        background: uurl('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/blvck.png');
+        background: uurl('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
         background-size: 100%;
     }
 
@@ -2156,7 +2171,7 @@ a {
         top: 500px;
         left: calc(50% - 148px);
         position: absolute;
-        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/images/silvae\ 1.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
         background-size: 100%;
     }
 
