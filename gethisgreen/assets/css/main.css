@@ -177,7 +177,7 @@ h1{
     position: absolute;
     top: 400px;
     left: 50px;
-    width: 228px;
+    width: 240px;
     height: 69px;
     font-family: Cinzel;
     color: white;
@@ -187,7 +187,9 @@ h1{
 #bernard div span {
     position: absolute;
     top: 24px;
-    left: 48px;
+    left: 0;
+    width: 100%;
+    text-align: center;
     color: inherit;
     margin: 0;
     padding: 0;
@@ -200,7 +202,6 @@ h1{
     background: #2C2C2C;
     border: #2C2C2C;
     font-size: 18px;
-    width: 240px;
 }
 
 /* TRUE DEFINITION OF CLASS */
@@ -962,6 +963,8 @@ a {
 }
 
 #customizeblack {
+    width: 246px;
+    height: 436px;
     left: -270px;
     position: absolute;
     background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
@@ -969,6 +972,8 @@ a {
 }
 
 #customizesilver {
+    width: 246px;
+    height: 436px;
     left: -270px;
     position: absolute;
     background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
@@ -976,8 +981,6 @@ a {
 }
 
 .customize div{
-    width: 246px;
-    height: 436px;
     transition: 0.5s;
 }
 
@@ -1016,16 +1019,26 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    border: 1px solid black;
+    /* border: 0.4px solid #676767; */
     margin: 0;
     padding: 0;
     color: black;
 }
 
+#onespan:hover{
+    border-width: 2px;
+}
+
 #onespan {
+    border: 0.4px solid #676767;
+    width: 258px;
+    height: 56px; 
     color: #000000;
 }
 #threespan {
+    border: 0.4px solid #676767;
+    width: 258px;
+    height: 56px; 
     color: #000000;
 }
 .inkcolor {
@@ -1067,11 +1080,16 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    border: 1px solid black;
+    /* border: 0.4px solid #676767; */
     margin: 0;
     padding: 0;
     color: black;
 }
+
+#threespan:hover{
+    border: 2px solid #676767;
+}
+
 #counter2 {
     display: block;
     position: absolute;
