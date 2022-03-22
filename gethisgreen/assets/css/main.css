@@ -1019,10 +1019,10 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    /* border: 0.4px solid #676767; */
     margin: 0;
     padding: 0;
     color: black;
+    transition: 0.5s;
 }
 
 #onespan:hover{
