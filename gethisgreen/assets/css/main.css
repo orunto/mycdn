@@ -1003,7 +1003,7 @@ a {
     text-align: center;
 }
 
-.customize hr {
+#underline {
     display: block;
     position: absolute;
     top: 0;
@@ -1183,8 +1183,8 @@ a {
     position: absolute;
     width: 312px;
     height: 162px;
-    right: 96px;
-    top: 245px;
+    right: 0;
+    top: 16px;
 
     font-family: Cinzel;
     font-style: normal;
