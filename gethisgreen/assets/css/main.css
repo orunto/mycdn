@@ -32,7 +32,7 @@ h2 {
 }
 @font-face {
     font-family: Bigilla;
-    src: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/assets/Bigilla.otf');
+    src: url('/assets/Bigilla.otf');
 }
 
 h4 {
@@ -144,7 +144,7 @@ nav a {
 
 nav hr {
     height: 32px;
-    border: 1px solid black;
+    border: 0.4px solid black;
     margin-right: 25px;
 }
 
@@ -1009,7 +1009,7 @@ a {
     left: calc(50% - 59.5px);
     margin: 0;
     width: 119px;
-    border: 1px solid black;
+    border: 0.4px solid black;
 }
 
 #onebox {
@@ -1023,6 +1023,7 @@ a {
     padding: 0;
     color: black;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 #onespan:hover{
@@ -1080,7 +1081,7 @@ a {
     left: calc(50% - 129px);
     width: 258px;
     height: 56px;
-    /* border: 0.4px solid #676767; */
+    cursor: pointer;
     margin: 0;
     padding: 0;
     color: black;
@@ -1197,7 +1198,7 @@ a {
 .feat {
     position: absolute;
     top: 195px;
-    border: 1px solid #676767;
+    border: 0.4px solid #676767;
     width: 100%;
     opacity: 0.5;
     font-size: 16px;
@@ -1217,7 +1218,7 @@ a {
 .write {
     position: absolute;
     top: 237px;
-    border: 1px solid #676767;
+    border: 0.4px solid #676767;
     width: 100%;
     opacity: 0.5;
     margin: 0;
@@ -1236,7 +1237,7 @@ a {
 .dim {
     position: absolute;
     top: 279px;
-    border: 1px solid #676767;
+    border: 0.4px solid #676767;
     width: 100%;
     margin: 0;
     opacity: 0.5;
@@ -1244,7 +1245,7 @@ a {
 .last {
     position: absolute;
     top: 321px;
-    border: 1px solid #676767;
+    border: 0.4px solid #676767;
     width: 100%;
     margin: 0;
     opacity: 0.5;
@@ -1478,7 +1479,6 @@ a {
         height: 32px;
         border-color: #DDDDDD;
         margin-right: 25px;
-        
     }
     
     
