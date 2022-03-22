@@ -131,6 +131,7 @@ nav {
     font-family: 'Cinzel', serif;
     overflow: hidden;
     z-index: 3;
+    background: white;
 }
 
 nav a {
@@ -957,15 +958,15 @@ a {
 .customize {
     position: absolute;
     top: 229px;
-    width: 804px;
     height: 436px;
-    left: calc(50vw - 402px);
+    width: calc(100vw - 192px);
+    left: 96px;
 }
 
 #customizeblack {
     width: 246px;
     height: 436px;
-    left: -270px;
+    left: 0px;
     position: absolute;
     background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/blvck.png');
     background-size: 100%;
@@ -974,7 +975,7 @@ a {
 #customizesilver {
     width: 246px;
     height: 436px;
-    left: -270px;
+    left: 0px;
     position: absolute;
     background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gethisgreen/images/silvae\ 1.png');
     background-size: 100%;
@@ -1182,7 +1183,7 @@ a {
     position: absolute;
     width: 312px;
     height: 162px;
-    left: 1032px;
+    right: 96px;
     top: 245px;
 
     font-family: Cinzel;
