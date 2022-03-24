@@ -898,12 +898,19 @@ a {
     top: 400px;
     left: calc(50% - 71px);
     width: 142px;
-    background: #2C2C2C;
-    color: white;
+    background: white;
+    color: black;
     padding: 0;
     cursor: pointer;
+    transition: 0.1s;
 }
 
+#submitbutton:hover {
+    background: #2C2C2C;
+    color: white;
+    font-size: 18px;
+    border: #2C2C2C;
+}
 
 /* PRODUCT PAGE */
 .product {
@@ -2174,9 +2181,15 @@ a {
         top: 600px;
         left: calc(50% - 71px);
         width: 142px;
+        background: white;
+        color: black;
+        padding: 0;
+    }
+
+    #submitbutton:hover {
         background: #2C2C2C;
         color: white;
-        padding: 0;
+        font-size: 18px;
     }
 
 
